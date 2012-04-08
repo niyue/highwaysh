@@ -2,31 +2,29 @@
 //  highwayshTests.m
 //  highwayshTests
 //
-//  Created by Yue Ni on 12-4-8.
-//  Copyright (c) 2012年 Tongji. All rights reserved.
-//
 
 #import "highwayshTests.h"
+#import "Highway.h"
 
 @implementation highwayshTests
 
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
 }
 
 - (void)tearDown
 {
-    // Tear-down code here.
-    
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testLoadAllHighways
 {
-    STFail(@"Unit tests are not implemented yet in highwayshTests");
+    NSArray *highways = [Highway all];
+    STAssertEquals(2, (int)[highways count], @"Highways should be more than 0");
+    Highway *hw = [highways objectAtIndex:0];
+    STAssertNotNil([hw code], @"Highway code should not be nil.");
+    STAssertNotNil([hw name], @"Highway name should not be nil.");
 }
 
 @end

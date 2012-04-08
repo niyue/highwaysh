@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0069931531B51D00F15FF7 /* HighwayDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0069921531B51D00F15FF7 /* HighwayDetailViewController.m */; };
+		8A0069961531BD3700F15FF7 /* TollStationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0069951531BD3700F15FF7 /* TollStationsViewController.m */; };
+		8A0069991531C06000F15FF7 /* TollRoadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0069981531C06000F15FF7 /* TollRoadsViewController.m */; };
+		8A00699C1531C09600F15FF7 /* TollRoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00699B1531C09600F15FF7 /* TollRoad.m */; };
+		8A00699D1531C09600F15FF7 /* TollRoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00699B1531C09600F15FF7 /* TollRoad.m */; };
+		8A0069A01531C57C00F15FF7 /* TollRoadDetailViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00699F1531C57C00F15FF7 /* TollRoadDetailViewControllerViewController.m */; };
 		8AF8764B15313D41005F8BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764A15313D41005F8BDA /* UIKit.framework */; };
 		8AF8764D15313D41005F8BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764C15313D41005F8BDA /* Foundation.framework */; };
 		8AF8764F15313D41005F8BDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764E15313D41005F8BDA /* CoreGraphics.framework */; };
@@ -16,12 +22,18 @@
 		8AF8765E15313D41005F8BDA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF8765C15313D41005F8BDA /* MainStoryboard_iPhone.storyboard */; };
 		8AF8766115313D41005F8BDA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF8765F15313D41005F8BDA /* MainStoryboard_iPad.storyboard */; };
 		8AF8766415313D41005F8BDA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8766315313D41005F8BDA /* MasterViewController.m */; };
-		8AF8766715313D41005F8BDA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8766615313D41005F8BDA /* DetailViewController.m */; };
 		8AF8766F15313D42005F8BDA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8766E15313D42005F8BDA /* SenTestingKit.framework */; };
 		8AF8767015313D42005F8BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764A15313D41005F8BDA /* UIKit.framework */; };
 		8AF8767115313D42005F8BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764C15313D41005F8BDA /* Foundation.framework */; };
 		8AF8767915313D42005F8BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AF8767715313D42005F8BDA /* InfoPlist.strings */; };
 		8AF8767C15313D42005F8BDA /* highwayshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8767B15313D42005F8BDA /* highwayshTests.m */; };
+		8AF8768915313E87005F8BDA /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AF8768815313E87005F8BDA /* data.plist */; };
+		8AF8768A15313E87005F8BDA /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AF8768815313E87005F8BDA /* data.plist */; };
+		8AF876911531426B005F8BDA /* G2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF8768F1531426B005F8BDA /* G2.png */; };
+		8AF876921531426B005F8BDA /* G15.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF876901531426B005F8BDA /* G15.png */; };
+		8AF87696153144E2005F8BDA /* Highway.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF87695153144E2005F8BDA /* Highway.m */; };
+		8AF87697153144E2005F8BDA /* Highway.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF87695153144E2005F8BDA /* Highway.m */; };
+		8AF8769A15317BA7005F8BDA /* HighwayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8769915317BA6005F8BDA /* HighwayTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,28 +47,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A0069911531B51D00F15FF7 /* HighwayDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighwayDetailViewController.h; sourceTree = "<group>"; };
+		8A0069921531B51D00F15FF7 /* HighwayDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighwayDetailViewController.m; sourceTree = "<group>"; };
+		8A0069941531BD3700F15FF7 /* TollStationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TollStationsViewController.h; sourceTree = "<group>"; };
+		8A0069951531BD3700F15FF7 /* TollStationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TollStationsViewController.m; sourceTree = "<group>"; };
+		8A0069971531C06000F15FF7 /* TollRoadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TollRoadsViewController.h; sourceTree = "<group>"; };
+		8A0069981531C06000F15FF7 /* TollRoadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TollRoadsViewController.m; sourceTree = "<group>"; };
+		8A00699A1531C09600F15FF7 /* TollRoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TollRoad.h; sourceTree = "<group>"; };
+		8A00699B1531C09600F15FF7 /* TollRoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TollRoad.m; sourceTree = "<group>"; };
+		8A00699E1531C57C00F15FF7 /* TollRoadDetailViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TollRoadDetailViewControllerViewController.h; sourceTree = "<group>"; };
+		8A00699F1531C57C00F15FF7 /* TollRoadDetailViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TollRoadDetailViewControllerViewController.m; sourceTree = "<group>"; };
 		8AF8764615313D41005F8BDA /* highwaysh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = highwaysh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF8764A15313D41005F8BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AF8764C15313D41005F8BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AF8764E15313D41005F8BDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8AF8765215313D41005F8BDA /* highwaysh-Info.plist */ = {isa = PBXFileReference; path = "highwaysh-Info.plist"; sourceTree = "<group>"; };
+		8AF8765215313D41005F8BDA /* highwaysh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "highwaysh-Info.plist"; sourceTree = "<group>"; };
 		8AF8765415313D41005F8BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AF8765615313D41005F8BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8AF8765815313D41005F8BDA /* highwaysh-Prefix.pch */ = {isa = PBXFileReference; path = "highwaysh-Prefix.pch"; sourceTree = "<group>"; };
-		8AF8765915313D41005F8BDA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AF8765815313D41005F8BDA /* highwaysh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "highwaysh-Prefix.pch"; sourceTree = "<group>"; };
+		8AF8765915313D41005F8BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AF8765A15313D41005F8BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8AF8765D15313D41005F8BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8AF8766015313D41005F8BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8AF8766215313D41005F8BDA /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		8AF8766215313D41005F8BDA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		8AF8766315313D41005F8BDA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		8AF8766515313D41005F8BDA /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
-		8AF8766615313D41005F8BDA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		8AF8766D15313D42005F8BDA /* highwayshTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = highwayshTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF8766E15313D42005F8BDA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8AF8767615313D42005F8BDA /* highwayshTests-Info.plist */ = {isa = PBXFileReference; path = "highwayshTests-Info.plist"; sourceTree = "<group>"; };
+		8AF8767615313D42005F8BDA /* highwayshTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "highwayshTests-Info.plist"; sourceTree = "<group>"; };
 		8AF8767815313D42005F8BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8AF8767A15313D42005F8BDA /* highwayshTests.h */ = {isa = PBXFileReference; path = highwayshTests.h; sourceTree = "<group>"; };
+		8AF8767A15313D42005F8BDA /* highwayshTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = highwayshTests.h; sourceTree = "<group>"; };
 		8AF8767B15313D42005F8BDA /* highwayshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = highwayshTests.m; sourceTree = "<group>"; };
+		8AF8768815313E87005F8BDA /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		8AF8768F1531426B005F8BDA /* G2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G2.png; sourceTree = "<group>"; };
+		8AF876901531426B005F8BDA /* G15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G15.png; sourceTree = "<group>"; };
+		8AF87694153144E2005F8BDA /* Highway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Highway.h; sourceTree = "<group>"; };
+		8AF87695153144E2005F8BDA /* Highway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Highway.m; sourceTree = "<group>"; };
+		8AF8769815317BA6005F8BDA /* HighwayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighwayTableViewCell.h; sourceTree = "<group>"; };
+		8AF8769915317BA6005F8BDA /* HighwayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighwayTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,15 +143,25 @@
 		8AF8765015313D41005F8BDA /* highwaysh */ = {
 			isa = PBXGroup;
 			children = (
+				8AF87693153144A5005F8BDA /* api */,
+				8AF8768515313DF9005F8BDA /* resources */,
 				8AF8765915313D41005F8BDA /* AppDelegate.h */,
 				8AF8765A15313D41005F8BDA /* AppDelegate.m */,
 				8AF8765C15313D41005F8BDA /* MainStoryboard_iPhone.storyboard */,
 				8AF8765F15313D41005F8BDA /* MainStoryboard_iPad.storyboard */,
 				8AF8766215313D41005F8BDA /* MasterViewController.h */,
 				8AF8766315313D41005F8BDA /* MasterViewController.m */,
-				8AF8766515313D41005F8BDA /* DetailViewController.h */,
-				8AF8766615313D41005F8BDA /* DetailViewController.m */,
 				8AF8765115313D41005F8BDA /* Supporting Files */,
+				8AF8769815317BA6005F8BDA /* HighwayTableViewCell.h */,
+				8AF8769915317BA6005F8BDA /* HighwayTableViewCell.m */,
+				8A0069911531B51D00F15FF7 /* HighwayDetailViewController.h */,
+				8A0069921531B51D00F15FF7 /* HighwayDetailViewController.m */,
+				8A0069941531BD3700F15FF7 /* TollStationsViewController.h */,
+				8A0069951531BD3700F15FF7 /* TollStationsViewController.m */,
+				8A0069971531C06000F15FF7 /* TollRoadsViewController.h */,
+				8A0069981531C06000F15FF7 /* TollRoadsViewController.m */,
+				8A00699E1531C57C00F15FF7 /* TollRoadDetailViewControllerViewController.h */,
+				8A00699F1531C57C00F15FF7 /* TollRoadDetailViewControllerViewController.m */,
 			);
 			path = highwaysh;
 			sourceTree = "<group>";
@@ -157,6 +194,35 @@
 				8AF8767715313D42005F8BDA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AF8768515313DF9005F8BDA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AF8768615313E07005F8BDA /* images */,
+				8AF8768815313E87005F8BDA /* data.plist */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		8AF8768615313E07005F8BDA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8AF8768F1531426B005F8BDA /* G2.png */,
+				8AF876901531426B005F8BDA /* G15.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		8AF87693153144A5005F8BDA /* api */ = {
+			isa = PBXGroup;
+			children = (
+				8AF87694153144E2005F8BDA /* Highway.h */,
+				8AF87695153144E2005F8BDA /* Highway.m */,
+				8A00699A1531C09600F15FF7 /* TollRoad.h */,
+				8A00699B1531C09600F15FF7 /* TollRoad.m */,
+			);
+			name = api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +299,9 @@
 				8AF8765515313D41005F8BDA /* InfoPlist.strings in Resources */,
 				8AF8765E15313D41005F8BDA /* MainStoryboard_iPhone.storyboard in Resources */,
 				8AF8766115313D41005F8BDA /* MainStoryboard_iPad.storyboard in Resources */,
+				8AF8768915313E87005F8BDA /* data.plist in Resources */,
+				8AF876911531426B005F8BDA /* G2.png in Resources */,
+				8AF876921531426B005F8BDA /* G15.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AF8767915313D42005F8BDA /* InfoPlist.strings in Resources */,
+				8AF8768A15313E87005F8BDA /* data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +340,13 @@
 				8AF8765715313D41005F8BDA /* main.m in Sources */,
 				8AF8765B15313D41005F8BDA /* AppDelegate.m in Sources */,
 				8AF8766415313D41005F8BDA /* MasterViewController.m in Sources */,
-				8AF8766715313D41005F8BDA /* DetailViewController.m in Sources */,
+				8AF87696153144E2005F8BDA /* Highway.m in Sources */,
+				8AF8769A15317BA7005F8BDA /* HighwayTableViewCell.m in Sources */,
+				8A0069931531B51D00F15FF7 /* HighwayDetailViewController.m in Sources */,
+				8A0069961531BD3700F15FF7 /* TollStationsViewController.m in Sources */,
+				8A0069991531C06000F15FF7 /* TollRoadsViewController.m in Sources */,
+				8A00699C1531C09600F15FF7 /* TollRoad.m in Sources */,
+				8A0069A01531C57C00F15FF7 /* TollRoadDetailViewControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +355,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AF8767C15313D42005F8BDA /* highwayshTests.m in Sources */,
+				8AF87697153144E2005F8BDA /* Highway.m in Sources */,
+				8A00699D1531C09600F15FF7 /* TollRoad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +460,7 @@
 				GCC_PREFIX_HEADER = "highwaysh/highwaysh-Prefix.pch";
 				INFOPLIST_FILE = "highwaysh/highwaysh-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,6 +472,7 @@
 				GCC_PREFIX_HEADER = "highwaysh/highwaysh-Prefix.pch";
 				INFOPLIST_FILE = "highwaysh/highwaysh-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -450,6 +530,7 @@
 				8AF8768115313D42005F8BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AF8768215313D42005F8BDA /* Build configuration list for PBXNativeTarget "highwayshTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +539,7 @@
 				8AF8768415313D42005F8BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

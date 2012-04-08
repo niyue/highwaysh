@@ -2,13 +2,12 @@
 //  MasterViewController.m
 //  highwaysh
 //
-//  Created by Yue Ni on 12-4-8.
-//  Copyright (c) 2012年 Tongji. All rights reserved.
-//
 
 #import "MasterViewController.h"
 
-#import "DetailViewController.h"
+#import "HighwayTableViewCell.h"
+#import "Highway.h"
+#import "HighwayDetailViewController.h"
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
@@ -16,6 +15,7 @@
 @end
 
 @implementation MasterViewController
+@synthesize highways;
 
 @synthesize detailViewController = _detailViewController;
 
@@ -32,11 +32,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
-
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
-    self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    self.highways = [Highway all];
 }
 
 - (void)viewDidUnload
@@ -54,16 +50,6 @@
     }
 }
 
-- (void)insertNewObject:(id)sender
-{
-    if (!_objects) {
-        _objects = [[NSMutableArray alloc] init];
-    }
-    [_objects insertObject:[NSDate date] atIndex:0];
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-    [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-}
-
 #pragma mark - Table View
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -73,32 +59,20 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    return [highways count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    HighwayTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HighwayCell"];
 
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
-    cell.textLabel.text = [object description];
+    int row = indexPath.row;
+    Highway *highway = [self.highways objectAtIndex:row];
+    cell.titleLabel.text = highway.name;
+    cell.descriptionLabel.text = highway.description;
+    NSString *highwayIcon = [NSString stringWithFormat:@"%@.png", highway.code];
+    cell.imageView.image = [UIImage imageNamed:highwayIcon];
     return cell;
-}
-
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [_objects removeObjectAtIndex:indexPath.row];
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }
 }
 
 /*
@@ -120,17 +94,17 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        NSDate *object = [_objects objectAtIndex:indexPath.row];
-        self.detailViewController.detailItem = object;
+        //Highway *highway = [highways objectAtIndex:indexPath.row];
     }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+    if ([[segue identifier] isEqualToString:@"ShowHighway"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = [_objects objectAtIndex:indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
+        Highway *highway = [highways objectAtIndex:indexPath.row];
+        HighwayDetailViewController *detailViewController = [segue destinationViewController];
+        detailViewController.highway = highway;
     }
 }
 
