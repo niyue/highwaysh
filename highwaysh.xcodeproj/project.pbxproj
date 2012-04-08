@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AF8764B15313D41005F8BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764A15313D41005F8BDA /* UIKit.framework */; };
+		8AF8764D15313D41005F8BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764C15313D41005F8BDA /* Foundation.framework */; };
+		8AF8764F15313D41005F8BDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764E15313D41005F8BDA /* CoreGraphics.framework */; };
+		8AF8765515313D41005F8BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AF8765315313D41005F8BDA /* InfoPlist.strings */; };
+		8AF8765715313D41005F8BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8765615313D41005F8BDA /* main.m */; };
+		8AF8765B15313D41005F8BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8765A15313D41005F8BDA /* AppDelegate.m */; };
+		8AF8765E15313D41005F8BDA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF8765C15313D41005F8BDA /* MainStoryboard_iPhone.storyboard */; };
+		8AF8766115313D41005F8BDA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF8765F15313D41005F8BDA /* MainStoryboard_iPad.storyboard */; };
+		8AF8766415313D41005F8BDA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8766315313D41005F8BDA /* MasterViewController.m */; };
+		8AF8766715313D41005F8BDA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8766615313D41005F8BDA /* DetailViewController.m */; };
+		8AF8766F15313D42005F8BDA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8766E15313D42005F8BDA /* SenTestingKit.framework */; };
+		8AF8767015313D42005F8BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764A15313D41005F8BDA /* UIKit.framework */; };
+		8AF8767115313D42005F8BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764C15313D41005F8BDA /* Foundation.framework */; };
+		8AF8767915313D42005F8BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AF8767715313D42005F8BDA /* InfoPlist.strings */; };
+		8AF8767C15313D42005F8BDA /* highwayshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8767B15313D42005F8BDA /* highwayshTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AF8767215313D42005F8BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AF8763D15313D40005F8BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF8764515313D41005F8BDA;
+			remoteInfo = highwaysh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AF8764615313D41005F8BDA /* highwaysh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = highwaysh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF8764A15313D41005F8BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AF8764C15313D41005F8BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AF8764E15313D41005F8BDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AF8765215313D41005F8BDA /* highwaysh-Info.plist */ = {isa = PBXFileReference; path = "highwaysh-Info.plist"; sourceTree = "<group>"; };
+		8AF8765415313D41005F8BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AF8765615313D41005F8BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AF8765815313D41005F8BDA /* highwaysh-Prefix.pch */ = {isa = PBXFileReference; path = "highwaysh-Prefix.pch"; sourceTree = "<group>"; };
+		8AF8765915313D41005F8BDA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AF8765A15313D41005F8BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AF8765D15313D41005F8BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8AF8766015313D41005F8BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8AF8766215313D41005F8BDA /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		8AF8766315313D41005F8BDA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8AF8766515313D41005F8BDA /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		8AF8766615313D41005F8BDA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8AF8766D15313D42005F8BDA /* highwayshTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = highwayshTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF8766E15313D42005F8BDA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8AF8767615313D42005F8BDA /* highwayshTests-Info.plist */ = {isa = PBXFileReference; path = "highwayshTests-Info.plist"; sourceTree = "<group>"; };
+		8AF8767815313D42005F8BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AF8767A15313D42005F8BDA /* highwayshTests.h */ = {isa = PBXFileReference; path = highwayshTests.h; sourceTree = "<group>"; };
+		8AF8767B15313D42005F8BDA /* highwayshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = highwayshTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AF8764315313D41005F8BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF8764B15313D41005F8BDA /* UIKit.framework in Frameworks */,
+				8AF8764D15313D41005F8BDA /* Foundation.framework in Frameworks */,
+				8AF8764F15313D41005F8BDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF8766915313D42005F8BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF8766F15313D42005F8BDA /* SenTestingKit.framework in Frameworks */,
+				8AF8767015313D42005F8BDA /* UIKit.framework in Frameworks */,
+				8AF8767115313D42005F8BDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AF8763B15313D40005F8BDA = {
+			isa = PBXGroup;
+			children = (
+				8AF8765015313D41005F8BDA /* highwaysh */,
+				8AF8767415313D42005F8BDA /* highwayshTests */,
+				8AF8764915313D41005F8BDA /* Frameworks */,
+				8AF8764715313D41005F8BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF8764715313D41005F8BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AF8764615313D41005F8BDA /* highwaysh.app */,
+				8AF8766D15313D42005F8BDA /* highwayshTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AF8764915313D41005F8BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AF8764A15313D41005F8BDA /* UIKit.framework */,
+				8AF8764C15313D41005F8BDA /* Foundation.framework */,
+				8AF8764E15313D41005F8BDA /* CoreGraphics.framework */,
+				8AF8766E15313D42005F8BDA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AF8765015313D41005F8BDA /* highwaysh */ = {
+			isa = PBXGroup;
+			children = (
+				8AF8765915313D41005F8BDA /* AppDelegate.h */,
+				8AF8765A15313D41005F8BDA /* AppDelegate.m */,
+				8AF8765C15313D41005F8BDA /* MainStoryboard_iPhone.storyboard */,
+				8AF8765F15313D41005F8BDA /* MainStoryboard_iPad.storyboard */,
+				8AF8766215313D41005F8BDA /* MasterViewController.h */,
+				8AF8766315313D41005F8BDA /* MasterViewController.m */,
+				8AF8766515313D41005F8BDA /* DetailViewController.h */,
+				8AF8766615313D41005F8BDA /* DetailViewController.m */,
+				8AF8765115313D41005F8BDA /* Supporting Files */,
+			);
+			path = highwaysh;
+			sourceTree = "<group>";
+		};
+		8AF8765115313D41005F8BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AF8765215313D41005F8BDA /* highwaysh-Info.plist */,
+				8AF8765315313D41005F8BDA /* InfoPlist.strings */,
+				8AF8765615313D41005F8BDA /* main.m */,
+				8AF8765815313D41005F8BDA /* highwaysh-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AF8767415313D42005F8BDA /* highwayshTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AF8767A15313D42005F8BDA /* highwayshTests.h */,
+				8AF8767B15313D42005F8BDA /* highwayshTests.m */,
+				8AF8767515313D42005F8BDA /* Supporting Files */,
+			);
+			path = highwayshTests;
+			sourceTree = "<group>";
+		};
+		8AF8767515313D42005F8BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AF8767615313D42005F8BDA /* highwayshTests-Info.plist */,
+				8AF8767715313D42005F8BDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AF8764515313D41005F8BDA /* highwaysh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF8767F15313D42005F8BDA /* Build configuration list for PBXNativeTarget "highwaysh" */;
+			buildPhases = (
+				8AF8764215313D41005F8BDA /* Sources */,
+				8AF8764315313D41005F8BDA /* Frameworks */,
+				8AF8764415313D41005F8BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = highwaysh;
+			productName = highwaysh;
+			productReference = 8AF8764615313D41005F8BDA /* highwaysh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AF8766C15313D42005F8BDA /* highwayshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF8768215313D42005F8BDA /* Build configuration list for PBXNativeTarget "highwayshTests" */;
+			buildPhases = (
+				8AF8766815313D42005F8BDA /* Sources */,
+				8AF8766915313D42005F8BDA /* Frameworks */,
+				8AF8766A15313D42005F8BDA /* Resources */,
+				8AF8766B15313D42005F8BDA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AF8767315313D42005F8BDA /* PBXTargetDependency */,
+			);
+			name = highwayshTests;
+			productName = highwayshTests;
+			productReference = 8AF8766D15313D42005F8BDA /* highwayshTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AF8763D15313D40005F8BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Tongji;
+			};
+			buildConfigurationList = 8AF8764015313D40005F8BDA /* Build configuration list for PBXProject "highwaysh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AF8763B15313D40005F8BDA;
+			productRefGroup = 8AF8764715313D41005F8BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AF8764515313D41005F8BDA /* highwaysh */,
+				8AF8766C15313D42005F8BDA /* highwayshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AF8764415313D41005F8BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF8765515313D41005F8BDA /* InfoPlist.strings in Resources */,
+				8AF8765E15313D41005F8BDA /* MainStoryboard_iPhone.storyboard in Resources */,
+				8AF8766115313D41005F8BDA /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF8766A15313D42005F8BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF8767915313D42005F8BDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AF8766B15313D42005F8BDA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AF8764215313D41005F8BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF8765715313D41005F8BDA /* main.m in Sources */,
+				8AF8765B15313D41005F8BDA /* AppDelegate.m in Sources */,
+				8AF8766415313D41005F8BDA /* MasterViewController.m in Sources */,
+				8AF8766715313D41005F8BDA /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF8766815313D42005F8BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF8767C15313D42005F8BDA /* highwayshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AF8767315313D42005F8BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AF8764515313D41005F8BDA /* highwaysh */;
+			targetProxy = 8AF8767215313D42005F8BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AF8765315313D41005F8BDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF8765415313D41005F8BDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AF8765C15313D41005F8BDA /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF8765D15313D41005F8BDA /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8AF8765F15313D41005F8BDA /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF8766015313D41005F8BDA /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8AF8767715313D42005F8BDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF8767815313D42005F8BDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AF8767D15313D42005F8BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AF8767E15313D42005F8BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AF8768015313D42005F8BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "highwaysh/highwaysh-Prefix.pch";
+				INFOPLIST_FILE = "highwaysh/highwaysh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AF8768115313D42005F8BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "highwaysh/highwaysh-Prefix.pch";
+				INFOPLIST_FILE = "highwaysh/highwaysh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8AF8768315313D42005F8BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/highwaysh.app/highwaysh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "highwaysh/highwaysh-Prefix.pch";
+				INFOPLIST_FILE = "highwayshTests/highwayshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8AF8768415313D42005F8BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/highwaysh.app/highwaysh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "highwaysh/highwaysh-Prefix.pch";
+				INFOPLIST_FILE = "highwayshTests/highwayshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AF8764015313D40005F8BDA /* Build configuration list for PBXProject "highwaysh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF8767D15313D42005F8BDA /* Debug */,
+				8AF8767E15313D42005F8BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF8767F15313D42005F8BDA /* Build configuration list for PBXNativeTarget "highwaysh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF8768015313D42005F8BDA /* Debug */,
+				8AF8768115313D42005F8BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AF8768215313D42005F8BDA /* Build configuration list for PBXNativeTarget "highwayshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF8768315313D42005F8BDA /* Debug */,
+				8AF8768415313D42005F8BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AF8763D15313D40005F8BDA /* Project object */;
+}
