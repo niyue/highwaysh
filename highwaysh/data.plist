@@ -162,6 +162,78 @@
 			<key>exits</key>
 			<string>不详</string>
 		</dict>
+        <dict>
+			<key>tollRoads</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>上海长江隧道</string>
+                    <key>chargeType</key>
+                    <string>经营</string>
+                    <key>length</key>
+                    <string>25.526</string>
+                    <key>startDate</key>
+                    <string>2009年10月31日</string>
+                    <key>endDate</key>
+                    <string>2034年10月30日</string>
+                    <key>chargingLength</key>
+                    <string>25</string>
+                    <key>start</key>
+                    <string>浦东五号沟</string>
+                    <key>destination</key>
+                    <string>崇明陈家镇</string>
+                    <key>tollStationInMainRoad</key>
+                    <string>0</string>
+                    <key>tollStationInRingRoad</key>
+                    <string>2</string>
+				</dict>
+                <dict>
+					<key>name</key>
+					<string>G40崇启隧道(上海段)</string>
+                    <key>chargeType</key>
+                    <string>还贷</string>
+                    <key>length</key>
+                    <string>30.735</string>
+                    <key>startDate</key>
+                    <string>2011年12月24日</string>
+                    <key>endDate</key>
+                    <string>2025年12月23日</string>
+                    <key>chargingLength</key>
+                    <string>15</string>
+                    <key>start</key>
+                    <string>崇明陈家镇</string>
+                    <key>destination</key>
+                    <string>崇明越江隧道工程</string>
+                    <key>tollStationInMainRoad</key>
+                    <string>1</string>
+                    <key>tollStationInRingRoad</key>
+                    <string>1</string>
+				</dict>
+			</array>
+			<key>tollStations</key>
+			<array>
+				<string>G40长兴岛收费站</string>
+				<string>G40陈海公路收费站</string>
+				<string>G40向化公路收费站</string>
+				<string>G40沪陕高速沪苏收费站</string>
+			</array>
+			<key>code</key>
+			<string>G40</string>
+			<key>name</key>
+			<string>G40沪陕高速</string>
+			<key>description</key>
+			<string>上海—西安 高速公路</string>
+			<key>openingDate</key>
+			<string>不详</string>
+			<key>length</key>
+			<string>1490</string>
+			<key>start</key>
+			<string>上海浦东新区</string>
+			<key>destination</key>
+			<string>陕西西安</string>
+			<key>exits</key>
+			<string>不详</string>
+		</dict>
 	</array>
 </dict>
 </plist>
