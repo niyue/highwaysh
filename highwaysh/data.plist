@@ -287,6 +287,60 @@
 			<key>exits</key>
 			<string>不详</string>
 		</dict>
+        <dict>
+			<key>tollRoads</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>G60沪昆高速公路</string>
+                    <key>chargeType</key>
+                    <string>经营</string>
+                    <key>length</key>
+                    <string>47.67</string>
+                    <key>startDate</key>
+                    <string>1990年12月22日</string>
+                    <key>endDate</key>
+                    <string>2030年8月31日</string>
+                    <key>chargingLength</key>
+                    <string>40</string>
+                    <key>start</key>
+                    <string>S20</string>
+                    <key>destination</key>
+                    <string>枫泾</string>
+                    <key>tollStationInMainRoad</key>
+                    <string>2</string>
+                    <key>tollStationInRingRoad</key>
+                    <string>6</string>
+				</dict>
+			</array>
+			<key>tollStations</key>
+			<array>
+				<string>G60沪昆高速新桥收费站</string>
+				<string>G60新桥收费站</string>
+				<string>G60松江收费站</string>
+				<string>G60松江新城收费站</string>
+                <string>G60大港收费站</string>
+                <string>G60石湖荡收费站</string>
+                <string>G60新浜收费站</string>
+                <string>G60沪昆高速枫泾收费站</string>
+			</array>
+			<key>code</key>
+			<string>G60</string>
+			<key>name</key>
+			<string>G60沪昆高速</string>
+			<key>description</key>
+			<string>上海－昆明 高速公路</string>
+			<key>openingDate</key>
+			<string>2010年1月1日</string>
+			<key>length</key>
+			<string>2730</string>
+			<key>start</key>
+			<string>上海闵行区</string>
+			<key>destination</key>
+			<string>云南昆明</string>
+			<key>exits</key>
+			<string>不详</string>
+		</dict>
 	</array>
 </dict>
 </plist>

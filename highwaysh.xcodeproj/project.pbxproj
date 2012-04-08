@@ -15,6 +15,7 @@
 		8A0069A01531C57C00F15FF7 /* TollRoadDetailViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00699F1531C57C00F15FF7 /* TollRoadDetailViewControllerViewController.m */; };
 		8A0069A21531D12F00F15FF7 /* G40.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0069A11531D12F00F15FF7 /* G40.png */; };
 		8A0069A41531D40700F15FF7 /* G50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0069A31531D40700F15FF7 /* G50.png */; };
+		8A0069A61531D58800F15FF7 /* G60.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0069A51531D58800F15FF7 /* G60.png */; };
 		8AF8764B15313D41005F8BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764A15313D41005F8BDA /* UIKit.framework */; };
 		8AF8764D15313D41005F8BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764C15313D41005F8BDA /* Foundation.framework */; };
 		8AF8764F15313D41005F8BDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764E15313D41005F8BDA /* CoreGraphics.framework */; };
@@ -61,6 +62,7 @@
 		8A00699F1531C57C00F15FF7 /* TollRoadDetailViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TollRoadDetailViewControllerViewController.m; sourceTree = "<group>"; };
 		8A0069A11531D12F00F15FF7 /* G40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G40.png; sourceTree = "<group>"; };
 		8A0069A31531D40700F15FF7 /* G50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G50.png; sourceTree = "<group>"; };
+		8A0069A51531D58800F15FF7 /* G60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G60.png; sourceTree = "<group>"; };
 		8AF8764615313D41005F8BDA /* highwaysh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = highwaysh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF8764A15313D41005F8BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AF8764C15313D41005F8BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -212,6 +214,7 @@
 		8AF8768615313E07005F8BDA /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8A0069A51531D58800F15FF7 /* G60.png */,
 				8A0069A31531D40700F15FF7 /* G50.png */,
 				8A0069A11531D12F00F15FF7 /* G40.png */,
 				8AF8768F1531426B005F8BDA /* G2.png */,
@@ -310,6 +313,7 @@
 				8AF876921531426B005F8BDA /* G15.png in Resources */,
 				8A0069A21531D12F00F15FF7 /* G40.png in Resources */,
 				8A0069A41531D40700F15FF7 /* G50.png in Resources */,
+				8A0069A61531D58800F15FF7 /* G60.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
