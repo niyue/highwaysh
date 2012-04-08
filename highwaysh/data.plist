@@ -234,6 +234,59 @@
 			<key>exits</key>
 			<string>不详</string>
 		</dict>
+        <dict>
+			<key>tollRoads</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>G50沪渝高速公路</string>
+                    <key>chargeType</key>
+                    <string>经营</string>
+                    <key>length</key>
+                    <string>47.199</string>
+                    <key>startDate</key>
+                    <string>2002年12月27日</string>
+                    <key>endDate</key>
+                    <string>2027年12月26日</string>
+                    <key>chargingLength</key>
+                    <string>25</string>
+                    <key>start</key>
+                    <string>S20</string>
+                    <key>destination</key>
+                    <string>G50江苏省界</string>
+                    <key>tollStationInMainRoad</key>
+                    <string>2</string>
+                    <key>tollStationInRingRoad</key>
+                    <string>5</string>
+				</dict>
+			</array>
+			<key>tollStations</key>
+			<array>
+				<string>G50沪渝高速徐泾收费站</string>
+				<string>G50嘉松中路收费站</string>
+				<string>G50青浦城区收费站</string>
+				<string>G50朱枫公路收费站</string>
+                <string>G50西岑收费站</string>
+                <string>G50金泽收费站</string>
+                <string>G50沪渝高速沪苏收费站</string>
+			</array>
+			<key>code</key>
+			<string>G50</string>
+			<key>name</key>
+			<string>G50沪渝高速</string>
+			<key>description</key>
+			<string>上海—重庆 高速公路</string>
+			<key>openingDate</key>
+			<string>2009年12月19日</string>
+			<key>length</key>
+			<string>1768</string>
+			<key>start</key>
+			<string>上海长宁区</string>
+			<key>destination</key>
+			<string>重庆渝北区</string>
+			<key>exits</key>
+			<string>不详</string>
+		</dict>
 	</array>
 </dict>
 </plist>
