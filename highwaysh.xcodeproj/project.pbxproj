@@ -24,6 +24,7 @@
 		8AF633DC1535B394007030AC /* S36.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF633DB1535B394007030AC /* S36.png */; };
 		8AF633DE1535B71E007030AC /* S26.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF633DD1535B71E007030AC /* S26.png */; };
 		8AF633E01535B8F2007030AC /* S32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF633DF1535B8F2007030AC /* S32.png */; };
+		8AF633E21535C47F007030AC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF633E11535C47F007030AC /* iAd.framework */; };
 		8AF8764B15313D41005F8BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764A15313D41005F8BDA /* UIKit.framework */; };
 		8AF8764D15313D41005F8BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764C15313D41005F8BDA /* Foundation.framework */; };
 		8AF8764F15313D41005F8BDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF8764E15313D41005F8BDA /* CoreGraphics.framework */; };
@@ -79,6 +80,7 @@
 		8AF633DB1535B394007030AC /* S36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S36.png; sourceTree = "<group>"; };
 		8AF633DD1535B71E007030AC /* S26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S26.png; sourceTree = "<group>"; };
 		8AF633DF1535B8F2007030AC /* S32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S32.png; sourceTree = "<group>"; };
+		8AF633E11535C47F007030AC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		8AF8764615313D41005F8BDA /* highwaysh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = highwaysh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF8764A15313D41005F8BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AF8764C15313D41005F8BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF633E21535C47F007030AC /* iAd.framework in Frameworks */,
 				8AF8764B15313D41005F8BDA /* UIKit.framework in Frameworks */,
 				8AF8764D15313D41005F8BDA /* Foundation.framework in Frameworks */,
 				8AF8764F15313D41005F8BDA /* CoreGraphics.framework in Frameworks */,
@@ -154,6 +157,7 @@
 		8AF8764915313D41005F8BDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8AF633E11535C47F007030AC /* iAd.framework */,
 				8AF8764A15313D41005F8BDA /* UIKit.framework */,
 				8AF8764C15313D41005F8BDA /* Foundation.framework */,
 				8AF8764E15313D41005F8BDA /* CoreGraphics.framework */,
