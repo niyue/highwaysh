@@ -615,7 +615,7 @@
 			<array>
 				<dict>
 					<key>name</key>
-					<string>S5沪嘉高速</string>
+					<string>S5沪嘉高速公路</string>
                     <key>chargeType</key>
                     <string>还贷</string>
                     <key>length</key>
@@ -659,6 +659,55 @@
 			<string>嘉定南门立交</string>
 			<key>exits</key>
 			<string>不详</string>
+		</dict>
+        <dict>
+			<key>tollRoads</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>S19新卫高速公路</string>
+                    <key>chargeType</key>
+                    <string>经营</string>
+                    <key>length</key>
+                    <string>18.96</string>
+                    <key>startDate</key>
+                    <string>2005年12月23日</string>
+                    <key>endDate</key>
+                    <string>2030年7月1日</string>
+                    <key>chargingLength</key>
+                    <string>25</string>
+                    <key>start</key>
+                    <string>朱泾</string>
+                    <key>destination</key>
+                    <string>枫泾</string>
+                    <key>tollStationInMainRoad</key>
+                    <string>1</string>
+                    <key>tollStationInRingRoad</key>
+                    <string>2</string>
+				</dict>
+			</array>
+			<key>tollStations</key>
+			<array>
+				<string>S19吕巷收费站</string>
+				<string>S19张堰收费站</string>
+				<string>S19新卫高速金山卫收费站</string>
+			</array>
+			<key>code</key>
+			<string>S19</string>
+			<key>name</key>
+			<string>S19新卫高速</string>
+			<key>description</key>
+			<string>上海—金山卫 高速公路</string>
+			<key>openingDate</key>
+			<string>2005年12月23日</string>
+			<key>length</key>
+			<string>不詳</string>
+			<key>start</key>
+			<string>新农立交</string>
+			<key>destination</key>
+			<string>金山区金山卫镇</string>
+			<key>exits</key>
+			<string>4</string>
 		</dict>
 	</array>
 </dict>
