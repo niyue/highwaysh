@@ -758,6 +758,54 @@
 			<key>exits</key>
 			<string>4</string>
 		</dict>
+        <dict>
+			<key>tollRoads</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>S26沪常高速公路西段</string>
+                    <key>chargeType</key>
+                    <string>还贷</string>
+                    <key>length</key>
+                    <string>8.152</string>
+                    <key>startDate</key>
+                    <string>2010年3月13日</string>
+                    <key>endDate</key>
+                    <string>2025年3月12日</string>
+                    <key>chargingLength</key>
+                    <string>15</string>
+                    <key>start</key>
+                    <string>S26</string>
+                    <key>destination</key>
+                    <string>沪苏省界(与江苏省S58高速相接)</string>
+                    <key>tollStationInMainRoad</key>
+                    <string>1</string>
+                    <key>tollStationInRingRoad</key>
+                    <string>1</string>
+				</dict>
+			</array>
+			<key>tollStations</key>
+			<array>
+				<string>S26沪常高速淀山湖收费站</string>
+				<string>S26漕盈公路收费站</string>
+			</array>
+			<key>code</key>
+			<string>S26</string>
+			<key>name</key>
+			<string>S26沪常高速</string>
+			<key>description</key>
+			<string>上海-常州 高速公路</string>
+			<key>openingDate</key>
+			<string>2010年3月13日(上海段)</string>
+			<key>length</key>
+			<string>40.53</string>
+			<key>start</key>
+			<string>G1501上海绕城高速公路</string>
+			<key>destination</key>
+			<string>尹山立交</string>
+			<key>exits</key>
+			<string>4</string>
+		</dict>
 	</array>
 </dict>
 </plist>
