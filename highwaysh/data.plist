@@ -610,6 +610,56 @@
 			<key>exits</key>
 			<string>14</string>
 		</dict>
+        <dict>
+			<key>tollRoads</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>S5沪嘉高速</string>
+                    <key>chargeType</key>
+                    <string>还贷</string>
+                    <key>length</key>
+                    <string>18.35</string>
+                    <key>startDate</key>
+                    <string>1988年10月31日</string>
+                    <key>endDate</key>
+                    <string>2011年12月31日</string>
+                    <key>chargingLength</key>
+                    <string>23</string>
+                    <key>start</key>
+                    <string>汶水路</string>
+                    <key>destination</key>
+                    <string>嘉定城区</string>
+                    <key>tollStationInMainRoad</key>
+                    <string>2</string>
+                    <key>tollStationInRingRoad</key>
+                    <string>2</string>
+				</dict>
+			</array>
+			<key>tollStations</key>
+			<array>
+				<string>S5沪嘉高速南翔收费站</string>
+				<string>S5南翔收费站</string>
+				<string>S5马陆收费站</string>
+				<string>S5沪嘉高速嘉定城区收费站</string>
+			</array>
+			<key>code</key>
+			<string>S5</string>
+			<key>name</key>
+			<string>S5沪嘉高速</string>
+			<key>description</key>
+			<string>上海—嘉定 高速公路</string>
+			<key>openingDate</key>
+			<string>1988年10月31日</string>
+			<key>length</key>
+			<string>20.5</string>
+			<key>start</key>
+			<string>中环沪嘉立交</string>
+			<key>destination</key>
+			<string>嘉定南门立交</string>
+			<key>exits</key>
+			<string>不详</string>
+		</dict>
 	</array>
 </dict>
 </plist>
