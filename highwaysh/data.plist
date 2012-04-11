@@ -556,6 +556,60 @@
 			<key>exits</key>
 			<string>不详</string>
 		</dict>
+        <dict>
+			<key>tollRoads</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>S4沪金高速公路</string>
+                    <key>chargeType</key>
+                    <string>经营</string>
+                    <key>length</key>
+                    <string>56.429</string>
+                    <key>startDate</key>
+                    <string>2002年12月27日</string>
+                    <key>endDate</key>
+                    <string>2027年12月26日</string>
+                    <key>chargingLength</key>
+                    <string>25</string>
+                    <key>start</key>
+                    <string>S20</string>
+                    <key>destination</key>
+                    <string>金山区G15沪浙省界</string>
+                    <key>tollStationInMainRoad</key>
+                    <string>1</string>
+                    <key>tollStationInRingRoad</key>
+                    <string>7</string>
+				</dict>
+			</array>
+			<key>tollStations</key>
+			<array>
+				<string>S4沪金高速颛桥收费站</string>
+				<string>S4剑川路收费站</string>
+				<string>S4西闸公路收费站</string>
+				<string>S4大叶公路收费站</string>
+                <string>S4南桥收费站</string>
+                <string>S4海湾路收费站</string>
+                <string>S4上海化学工业区收费站</string>
+                <string>S4庄胡公路收费站</string>
+			</array>
+			<key>code</key>
+			<string>S4</string>
+			<key>name</key>
+			<string>S4沪金高速</string>
+			<key>description</key>
+			<string>上海—金山 高速公路</string>
+			<key>openingDate</key>
+			<string>2002年12月27日</string>
+			<key>length</key>
+			<string>56.429</string>
+			<key>start</key>
+			<string>莘庄立交</string>
+			<key>destination</key>
+			<string>山阳立交</string>
+			<key>exits</key>
+			<string>14</string>
+		</dict>
 	</array>
 </dict>
 </plist>
