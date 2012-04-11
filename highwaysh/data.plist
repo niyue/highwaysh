@@ -806,6 +806,61 @@
 			<key>exits</key>
 			<string>4</string>
 		</dict>
+        <dict>
+			<key>tollRoads</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>S32申嘉湖高速公路</string>
+                    <key>chargeType</key>
+                    <string>还贷</string>
+                    <key>length</key>
+                    <string>83.485</string>
+                    <key>startDate</key>
+                    <string>2010年1月1日</string>
+                    <key>endDate</key>
+                    <string>2024年4月30日</string>
+                    <key>chargingLength</key>
+                    <string>15</string>
+                    <key>start</key>
+                    <string>浦东机场</string>
+                    <key>destination</key>
+                    <string>沪苏省界(与江苏省S12高速相接)</string>
+                    <key>tollStationInMainRoad</key>
+                    <string>2</string>
+                    <key>tollStationInRingRoad</key>
+                    <string>7</string>
+				</dict>
+			</array>
+			<key>tollStations</key>
+			<array>
+				<string>S32申嘉湖高速祝桥收费站</string>
+                <string>S32川南奉公路收费站</string>
+                <string>S32南六公路收费站</string>
+                <string>S32林海公路收费站</string>
+                <string>S32三鲁公路收费站</string>
+                <string>S32嘉闵高架路收费站</string>
+                <string>S32松卫北路收费站</string>
+                <string>S32朱枫公路收费站</string>
+                <string>S32申嘉湖高速沪浙收费站</string>
+			</array>
+			<key>code</key>
+			<string>S32</string>
+			<key>name</key>
+			<string>S32申嘉湖高速</string>
+			<key>description</key>
+			<string>上海-湖州 高速公路</string>
+			<key>openingDate</key>
+			<string>2009年12月31日</string>
+			<key>length</key>
+			<string>不详</string>
+			<key>start</key>
+			<string>浦东国际机场</string>
+			<key>destination</key>
+			<string>沪浙省界</string>
+			<key>exits</key>
+			<string>2</string>
+		</dict>
 	</array>
 </dict>
 </plist>
