@@ -709,6 +709,55 @@
 			<key>exits</key>
 			<string>4</string>
 		</dict>
+        <dict>
+			<key>tollRoads</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>S36亭枫高速公路</string>
+                    <key>chargeType</key>
+                    <string>经营</string>
+                    <key>length</key>
+                    <string>20.74</string>
+                    <key>startDate</key>
+                    <string>2005年12月23日</string>
+                    <key>endDate</key>
+                    <string>2030年7月1日</string>
+                    <key>chargingLength</key>
+                    <string>25</string>
+                    <key>start</key>
+                    <string>吕巷</string>
+                    <key>destination</key>
+                    <string>金山卫</string>
+                    <key>tollStationInMainRoad</key>
+                    <string>1</string>
+                    <key>tollStationInRingRoad</key>
+                    <string>2</string>
+				</dict>
+			</array>
+			<key>tollStations</key>
+			<array>
+				<string>S36朱泾收费站</string>
+				<string>S36兴塔收费站</string>
+				<string>S36亭枫高速枫泾收费站</string>
+			</array>
+			<key>code</key>
+			<string>S36</string>
+			<key>name</key>
+			<string>S36亭枫高速</string>
+			<key>description</key>
+			<string>亭林-枫泾 高速公路</string>
+			<key>openingDate</key>
+			<string>2005年12月23日</string>
+			<key>length</key>
+			<string>20.7</string>
+			<key>start</key>
+			<string>新农立交</string>
+			<key>destination</key>
+			<string>G60沪昆高速</string>
+			<key>exits</key>
+			<string>4</string>
+		</dict>
 	</array>
 </dict>
 </plist>
