@@ -504,6 +504,58 @@
 			<key>exits</key>
 			<string>34</string>
 		</dict>
+        <dict>
+			<key>tollRoads</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>S2沪芦高速公路</string>
+                    <key>chargeType</key>
+                    <string>经营</string>
+                    <key>length</key>
+                    <string>42.309</string>
+                    <key>startDate</key>
+                    <string>2004年12月29日</string>
+                    <key>endDate</key>
+                    <string>2029年12月28日</string>
+                    <key>chargingLength</key>
+                    <string>25</string>
+                    <key>start</key>
+                    <string>康桥</string>
+                    <key>destination</key>
+                    <string>临港</string>
+                    <key>tollStationInMainRoad</key>
+                    <string>2</string>
+                    <key>tollStationInRingRoad</key>
+                    <string>4</string>
+				</dict>
+			</array>
+			<key>tollStations</key>
+			<array>
+				<string>S2沪芦高速康桥收费站</string>
+				<string>S2沪南公路收费站</string>
+				<string>S2大叶公路收费站</string>
+				<string>S2新四平公路收费站</string>
+                <string>S2南芦公路收费站</string>
+                <string>S2沪芦高速临港收费站站</string>
+			</array>
+			<key>code</key>
+			<string>S2</string>
+			<key>name</key>
+			<string>S2沪芦高速</string>
+			<key>description</key>
+			<string>上海—芦潮港 高速公路</string>
+			<key>openingDate</key>
+			<string>2004年12月29日(北段),2005年12月2日(南段)</string>
+			<key>length</key>
+			<string>42.3</string>
+			<key>start</key>
+			<string>S20公路</string>
+			<key>destination</key>
+			<string>东海大桥</string>
+			<key>exits</key>
+			<string>不详</string>
+		</dict>
 	</array>
 </dict>
 </plist>
