@@ -11,7 +11,9 @@
 {
     NSArray *tollStations;
     ADBannerView *iAdBannerView;
+    UITableView *tollStationsTableView;
 }
 @property (strong, nonatomic) NSArray *tollStations;
 @property (strong, nonatomic) IBOutlet ADBannerView *iAdBannerView;
+@property (strong, nonatomic) IBOutlet UITableView *tollStationsTableView;
 @end

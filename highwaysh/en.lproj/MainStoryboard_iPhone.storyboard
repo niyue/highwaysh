@@ -322,15 +322,15 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="TollStationCell" textLabel="LGT-Q6-jlo" style="IBUITableViewCellStyleDefault" id="G5K-bY-vXI">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="TollStationCell" textLabel="LGT-Q6-jlo" style="IBUITableViewCellStyleDefault" id="G5K-bY-vXI">
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="收费站名称" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LGT-Q6-jlo">
-                                                    <rect key="frame" x="10" y="0.0" width="300" height="43"/>
+                                                    <rect key="frame" x="10" y="0.0" width="280" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -339,6 +339,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="IpG-LJ-dtW" kind="push" identifier="ShowTollStationMapSegue" id="Ryr-RN-Ljh"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -363,10 +366,38 @@
                     <navigationItem key="navigationItem" title="收费站" id="T4m-BB-sRQ"/>
                     <connections>
                         <outlet property="iAdBannerView" destination="MXw-1q-mfT" id="Vq1-Og-KzV"/>
+                        <outlet property="tollStationsTableView" destination="CYO-52-86e" id="lTC-Aw-JmO"/>
                     </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1396" y="64"/>
+        </scene>
+        <!--Toll Station Map View Controller-->
+        <scene sceneID="ccl-4G-bx0">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DPc-JT-wOx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="IpG-LJ-dtW" customClass="TollStationMapViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PqK-H0-V7b">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="j5N-cv-99l">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="IpG-LJ-dtW" id="mPt-qX-3j0"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bhS-8E-ItC"/>
+                    <connections>
+                        <outlet property="mapView" destination="j5N-cv-99l" id="kEP-9P-1qF"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1864" y="64"/>
         </scene>
         <!--Toll Roads View Controller - 收费路段-->
         <scene sceneID="GZW-3r-vIL">
@@ -742,10 +773,17 @@
         <class className="TollRoadsViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TollRoadsViewController.h"/>
         </class>
+        <class className="TollStationMapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TollStationMapViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
         <class className="TollStationsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TollStationsViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="iAdBannerView" candidateClass="ADBannerView"/>
+                <relationship kind="outlet" name="tollStationsTableView" candidateClass="UITableView"/>
             </relationships>
         </class>
     </classes>

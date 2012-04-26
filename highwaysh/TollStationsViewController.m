@@ -4,6 +4,7 @@
 //
 
 #import "TollStationsViewController.h"
+#import "TollStationMapViewController.h"
 
 @interface TollStationsViewController ()
 
@@ -12,6 +13,7 @@
 @implementation TollStationsViewController
 @synthesize tollStations;
 @synthesize iAdBannerView;
+@synthesize tollStationsTableView;
 
 
 - (void)viewDidLoad
@@ -64,6 +66,16 @@
 
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
     NSLog(@"bannerview did not receive any banner due to %@", error);
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"ShowTollStationMapSegue"]) {
+        NSIndexPath *selectedRow = [tollStationsTableView indexPathForSelectedRow];
+        NSString *address = [tollStations objectAtIndex:selectedRow.row];
+        TollStationMapViewController *mapController = [segue destinationViewController];
+        mapController.address = address;
+    }
 }
 
 @end
